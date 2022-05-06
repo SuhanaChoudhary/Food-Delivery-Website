@@ -1,0 +1,366 @@
+/* 
+    Author: CSIT07;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+    
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+    
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+.navbar{
+    background-color: rgb(23,23,26);
+}
+.logo{
+    width: 5%;
+    float: left;
+}
+.cart{
+    width: 4%;
+    float: right;
+    line-height: 60px;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+    background-color:rgb(23,23,26);
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color:rgb(23,23,26);
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 17%;
+    float: left;
+}
+
+.food-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+    color: black;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+    color: aliceblue;
+}
+/* .food-menu-desc h4{
+    color:black;
+} */
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+    color: white;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+/*CSS for Contact Page*/
+.contact{
+    background-image: url(../images/cntg.jpeg);
+    background-color: rgb(23,23,26);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 16% 0;
+    
+}
+
+.contact ul{
+    list-style-type: none;
+}
+
+.contact ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* CSS for Social */
+.social{
+    background-color: rgb(23,23,26);
+    
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.footer{
+    background-color: rgb(23,23,26);
+    color: white;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+/*css for customer login page*/
+.clogin{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    color:aliceblue;
+    font-weight: bolder;   
+     
+}
+.clogin h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.loginbg{
+    background-image: url(../images/dark_night.jpeg);
+   
+    background-position: center;
+    padding:1% 0;
+    background-color: rgb(23,23,26);
+}
+
+/*CSS for SignIn page*/
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+ 
+  .btn-secondary{
+    background-color: palevioletred;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color:rgb(187, 10, 69);
+}
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
